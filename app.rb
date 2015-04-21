@@ -17,6 +17,10 @@ get '/' do
   erb :index
 end
 
+get '/variables' do
+  erb :variables
+end
+
 # ***API ROUTES***
 
 get '/api/cards' do
