@@ -64,6 +64,43 @@ h1,h2,h3,h4,h5,h6 {
   padding: 5px;
 }
 
+#done:hover {
+    background-color: #FF00FF;
+}
+
+#dtwo:hover {
+    background-color: #AAA;
+}
+
+#dtone {
+  color: red;
+}
+
+#dttwo {
+  color: blue;
+}
+
+#dtthree {
+  color: green;
+}
+
+#dqone {
+  background-color: blue;
+}
+
+#dqtwo {
+  background-color: red;
+}
+
+#dqthree {
+  background-color: yellow;
+}
+
+#dqfour {
+  background-color: green;
+}
+
+
 ::-moz-selection { background: #5af; color: #fff; text-shadow: none; }
 ::selection { background: #5af; color: #fff; text-shadow: none; }
 
