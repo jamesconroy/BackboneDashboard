@@ -42,22 +42,22 @@ $(document).ready(function(event) {
     }
   })
 
-  var data = { title: "This is a 50% title", content: "This is some content", id: "done"}
-  var data2 = { title: "This is a 50% title", content: "This is some content", id: "dtwo"}
+  var data = { title: "This is a 50% title", content: "This is some content", id: "half1"}
+  var data2 = { title: "This is a 50% title", content: "This is some content", id: "half2"}
   var newCard = new halfCardView(data);
   var newCard = new halfCardView(data2);
 
-  var dataThird = {title: "This is one-third", content: "There's some text in here", id: "dtone"}
-  var dataThird2 = {title: "This is one-third", content: "There's some text in here", id: "dttwo"}
-  var dataThird3 = {title: "This is one-third", content: "There's some text in here", id: "dtthree"}
+  var dataThird = {title: "This is one-third", content: "There's some text in here", id: "third1"}
+  var dataThird2 = {title: "This is one-third", content: "There's some text in here", id: "third2"}
+  var dataThird3 = {title: "This is one-third", content: "There's some text in here", id: "third3"}
   var aThirdCard = new thirdCardView(dataThird)
   var aThirdCard = new thirdCardView(dataThird2)
   var aThirdCard = new thirdCardView(dataThird3)
 
-  var dataQuarter = {title: "This is one-quarter", content: "There's some text in here", id: "dqone"}
-  var dataQuarter2 = {title: "This is one-quarter", content: "There's some text in here", id: "dqtwo"}
-  var dataQuarter3 = {title: "This is one-quarter", content: "There's some text in here", id: "dqthree"}
-  var dataQuarter4 = {title: "This is one-quarter", content: "There's some text in here", id: "dqfour"}
+  var dataQuarter = {title: "This is one-quarter", content: "There's some text in here", id: "quarter1"}
+  var dataQuarter2 = {title: "This is one-quarter", content: "There's some text in here", id: "quarter2"}
+  var dataQuarter3 = {title: "This is one-quarter", content: "There's some text in here", id: "quarter3"}
+  var dataQuarter4 = {title: "This is one-quarter", content: "There's some text in here", id: "quarter4"}
   var aQuarterCard = new quarterCardView(dataQuarter)
   var aQuarterCard = new quarterCardView(dataQuarter2)
   var aQuarterCard = new quarterCardView(dataQuarter3)

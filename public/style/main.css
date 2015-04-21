@@ -64,39 +64,39 @@ h1,h2,h3,h4,h5,h6 {
   padding: 5px;
 }
 
-#done:hover {
+#half1:hover {
     background-color: #FF00FF;
 }
 
-#dtwo:hover {
+#half2:hover {
     background-color: #AAA;
 }
 
-#dtone {
+#third1 {
   color: red;
 }
 
-#dttwo {
+#third2 {
   color: blue;
 }
 
-#dtthree {
+#third3 {
   color: green;
 }
 
-#dqone {
+#quarter1 {
   background-color: blue;
 }
 
-#dqtwo {
+#quarter2 {
   background-color: red;
 }
 
-#dqthree {
+#quarter3 {
   background-color: yellow;
 }
 
-#dqfour {
+#quarter4 {
   background-color: green;
 }
 
@@ -110,15 +110,18 @@ h1,h2,h3,h4,h5,h6 {
 
 @media only screen
   and (max-device-width: 760px) {
+    width: 760px
   /* tablet breakpoint not yet implemented */
 }
 
 @media only screen
 and (max-device-width: 640px) {
+  width: 640px
   /* phablet breakpoint not yet implemented */
 }
 
 @media only screen
   and (max-device-width: 480px) {
+    width: 480px
   /* phone breakpoint not yet implemented */
 }
